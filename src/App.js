@@ -15,9 +15,9 @@ function App() {
 
   async function handleAddRepository() {
     const response = await api.post('repositories' , {
-      title: "Go Stack Desafios",
-      url: "https://github.com/marcelokanu",
-      techs: "vb.net, python, reactJS",
+      title: 'Go Stack Desafios',
+      url: 'https://github.com/marcelokanu',
+      techs: ['vb.net, python, reactJS'],
     }); 
     const repository = response.data;
 
